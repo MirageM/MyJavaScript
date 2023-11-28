@@ -1,0 +1,12 @@
+/*
+flex-grow flex-shrink flex-basis
+*/
+
+.box3{
+    background-color: blanchedalmond;
+    align-self: center;
+}
+
+.flex-container{
+    flex: 0 1 auto;
+}
