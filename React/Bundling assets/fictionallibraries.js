@@ -1,0 +1,10 @@
+import React from 'react';
+import '@atlaskit/css-reset';
+import styled from 'styled-components';
+import './index.css';
+import {ThemeProvider} from './contexts/theme';
+import {DragDropContext} from 'react-beautiful-dnd';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Nav from './components/Nav';
+import data from './data';
+import Loading from './components/Loading';
